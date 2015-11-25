@@ -1,0 +1,7 @@
+a
+shellcode
+e
+0
+overflow this
+f
+0
