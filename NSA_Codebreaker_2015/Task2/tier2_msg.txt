@@ -1,0 +1,1001 @@
+But there is still one more point to be considered. We have not yet	 	
+allowed for the fact that with any given arrangement three of the other	  
+arrangements may be obtained by simply turning the chain over through	 	
+its entire length and by reversing the ends. Thus C is really the same			
+as A, and if we turn this page upside down, then A and C give two other			
+arrangements that are still really identical. Thus to get the correct	  
+answer to the puzzle we must divide our last total by 4, when we find  	
+that there are just 72,253,440 different ways in which the smith might   
+have put those links together. In other words, if the nine links had			
+originally formed a piece of chain, and it was known that the two 	 
+circular links were separated, then it would be 72,253,439 chances to 1	  
+that the smith would not have put the links together again precisely as 		
+they were arranged before!	 	
+			
+			
+283.--THE FIFTEEN DOMINOES.			
+ 	 
+The reader may have noticed that at each end of the line I give is a	  
+four, so that, if we like, we can form a ring instead of a line. It can  	
+easily be proved that this must always be so. Every line arrangement 		
+will make a circular arrangement if we like to join the ends. Now,   
+curious as it may at first appear, the following diagram exactly 	 
+represents the conditions when we leave the doubles out of the question  	
+and devote our attention to forming circular arrangements. Each number, 	 
+or half domino, is in line with every other number, so that if we start	  
+at any one of the five numbers and go over all the lines of the pentagon 		
+once and once only we shall come back to the starting place, and the 		
+order of our route will give us one of the circular arrangements for the	 	
+ten dominoes. Take your pencil and follow out the following route,			
+starting at the 4: 41304210234. You have been over all the lines once		 
+only, and by repeating all these figures in this way,  	
+41--13--30--04--42--21--10--02--23--34, you get an arrangement of the			
+dominoes (without the doubles) which will be perfectly clear. Take other	  
+routes and you will get other arrangements. If, therefore, we can	  
+ascertain just how many of these circular routes are obtainable from			
+the pentagon, then the rest is very easy.  	
+			
+Well, the number of different circular routes over the pentagon is 264. 	 
+How I arrive at these figures I will not at present explain, because it 	 
+would take a lot of space. The dominoes may, therefore, be arranged in a  	
+circle in just 264 different ways, leaving out the doubles. Now, in any	  
+one of these circles the five doubles may be inserted in 2^5 = 32 		
+different ways. Therefore when we include the doubles there are 264 x 32  	
+= 8,448 different circular arrangements. But each of those circles may	 	
+be broken (so as to form our straight line) in any one of 15 different			
+places. Consequently, 8,448 x 15 gives 126,720 different ways as the		 
+correct answer to the puzzle. 	 
+			
+[Illustration:	  
+			
+                -----	 	
+               |     |   
+            /  |     |  \	  
+           /    -----    \		 
+          /     .  .      \ 		
+     -----     .    .       ----- 	 
+    |     |   .      .     | o o |		 
+    |  o  | -.--------.--- |     |			
+    |     | .          . . | o o |			
+     ----- .  .        ..   -----  	
+        \ .     .    .   .  /		 
+       -----      ..     -----		 
+      |  o  |    .  .   |o    | 		
+      |     | --------- |  o  | 	 
+      |  o  |.         .|    o|	  
+       -----             -----		 
+	 	
+]  	
+   
+I purposely refrained from asking the reader to discover in just how			
+many different ways the full set of twenty-eight dominoes may be 		
+arranged in a straight line in accordance with the ordinary rules of the			
+game, left to right and right to left of any arrangement counting as	  
+different ways. It is an exceedingly difficult problem, but the correct 		
+answer is 7,959,229,931,520 ways. The method of solving is very complex.  	
+  	
+	 	
+284.--THE CROSS TARGET. 	 
+  	
+[Illustration: 		
+		 
+             --  --			
+            (CD)(  )			
+             --  --  	
+            (AE)(A ) 		
+     --  --  --  --  --  -- 	 
+    (CE)(E )(A )(AB)(C )(D ) 	 
+     --  --  --  --  --  --  	
+    (D )(  )(B )(E )(EB)(  )	  
+     --  --  --  --  --  -- 	 
+            (C )(B )			
+             --  --  	
+            (  )(ED)   
+             --  -- 		
+ 		
+			
+]	  
+	  
+Twenty-one different squares may be selected. Of these nine will be of	 	
+the size shown by the four A's in the diagram, four of the size shown by  	
+the B's, four of the size shown by the C's, two of the size shown by the   
+D's, and two of the size indicated by the upper single A, the upper 	 
+single E, the lower single C, and the EB. It is an interesting fact that  	
+you cannot form any one of these twenty-one squares without using at 		
+least one of the six circles marked E.	  
+	 	
+	 	
+285.--THE FOUR POSTAGE STAMPS.  	
+   
+Referring to the original diagram, the four stamps may be given in the 	 
+shape 1, 2, 3, 4, in three ways; in the shape 1, 2, 5, 6, in six ways; 	 
+in the shape 1, 2, 3, 5, or 1, 2, 3, 7, or 1, 5, 6, 7, or 3, 5, 6, 7, in  	
+twenty-eight ways; in shape 1, 2, 3, 6, or 2, 5, 6, 7, in fourteen ways;		 
+in shape 1, 2, 6, 7, or 2, 3, 5, 6, or 1, 5, 6, 10, or 2, 5, 6, 9, in			
+fourteen ways. Thus there are sixty-five ways in all.			
+	 	
+  	
+286.--PAINTING THE DIE. 		
+ 		
+The 1 can be marked on any one of six different sides. For every side			
+occupied by 1 we have a selection of four sides for the 2. For every	 	
+situation of the 2 we have two places for the 3. (The 6, 5, and 4 need	  
+not be considered, as their positions are determined by the 1, 2, and	 	
+3.) Therefore 6, 4, and 2 multiplied together make 48 different  	
+ways--the correct answer.	 	
+ 	 
+ 	 
+287.--AN ACROSTIC PUZZLE. 	 
+	  
+There are twenty-six letters in the alphabet, giving 325 different			
+pairs. Every one of these pairs may be reversed, making 650 ways. But 		
+every initial letter may be repeated as the final, producing 26 other  	
+ways. The total is therefore 676 different pairs. In other words, the	 	
+answer is the square of the number of letters in the alphabet. 	 
+  	
+	 	
+288.--CHEQUERED BOARD DIVISIONS.		 
+			
+There are 255 different ways of cutting the board into two pieces of			
+exactly the same size and shape. Every way must involve one of the five  	
+cuts shown in Diagrams A, B, C, D, and E. To avoid repetitions by   
+reversal and reflection, we need only consider cuts that enter at the		 
+points a, b, and c. But the exit must always be at a point in a straight  	
+line from the entry through the centre. This is the most important 	 
+condition to remember. In case B you cannot enter at a, or you will get	  
+the cut provided for in E. Similarly in C or D, you must not enter the	  
+key-line in the same direction as itself, or you will get A or B. If you	 	
+are working on A or C and entering at a, you must consider joins at one  	
+end only of the key-line, or you will get repetitions. In other cases		 
+you must consider joins at both ends of the key; but after leaving a in		 
+case D, turn always either to right or left--use one direction only. 		
+Figs. 1 and 2 are examples under A; 3 and 4 are examples under B; 5 and 	 
+6 come under C;	  
+ 		
+[Illustration] 		
+	 	
+and 7 is a pretty example of D. Of course, E is a peculiar type, and			
+obviously admits of only one way of cutting, for you clearly cannot			
+enter at b or c.  	
+	  
+Here is a table of the results:--		 
+  	
+	 	
+         a    b    c   Ways.	  
+    A =  8 + 17 + 21 =  46		 
+    B =  0 + 17 + 21 =  38			
+    C = 15 + 31 + 39 =  85 		
+    D = 17 + 29 + 39 =  85			
+    E =  1 +  0 +  0 =   1	  
+        --   --   --   ---	 	
+        41  94   120   255	 	
+   
+I have not attempted the task of enumerating the ways of dividing a		 
+board 8 x 8--that is, an ordinary chessboard. Whatever the method 		
+adopted, the solution would entail considerable labour. 		
+			
+	  
+289.--LIONS AND CROWNS. 		
+ 		
+[Illustration]  	
+	 	
+Here is the solution. It will be seen that each of the four pieces 	 
+(after making the cuts along the thick lines) is of exactly the same 		
+size and shape, and that each piece contains a lion and a crown. Two of		 
+the pieces are shaded so as to make the solution quite clear to the eye.	  
+		 
+			
+290.--BOARDS WITH AN ODD NUMBER OF SQUARES.   
+ 		
+There are fifteen different ways of cutting the 5 x 5 board (with the 		
+central square removed) into two pieces of the same size and shape. 		
+Limitations of space will not allow me to give diagrams of all these,			
+but I will enable the reader to draw them all out for himself without	  
+the slightest difficulty. At whatever point on the edge your cut enters, 	 
+it must always end at a point on the edge, exactly opposite in a line			
+through the centre of the square. Thus, if you enter at point 1 (see  	
+Fig. 1) at the top, you must leave at point 1 at the bottom. Now, 1 and   
+2 are the only two really different points of entry; if we use any 		
+others they will simply produce similar solutions. The directions of the 		
+cuts in the following fifteen			
+	  
+[Illustration: Fig. 1. Fig. 2.]			
+  	
+solutions are indicated by the numbers on the diagram. The duplication  	
+of the numbers can lead to no confusion, since every successive number			
+is contiguous to the previous one. But whichever direction you take from 	 
+the top downwards you must repeat from the bottom upwards, one direction  	
+being an exact reflection of the other.	 	
+	  
+    1, 4, 8. 		
+    1, 4, 3, 7, 8. 		
+    1, 4, 3, 7, 10, 9.   
+    1, 4, 3, 7, 10, 6, 5, 9. 		
+    1, 4, 5, 9. 		
+    1, 4, 5, 6, 10, 9. 		
+    1, 4, 5, 6, 10, 7, 8.			
+    2, 3, 4, 8.	  
+    2, 3, 4, 5, 9.	  
+    2, 3, 4, 5, 6, 10, 9.  	
+    2, 3, 4, 5, 6, 10, 7, 8.   
+    2, 3, 7, 8.	 	
+    2, 3, 7, 10, 9. 	 
+    2, 3, 7, 10, 6, 5, 9.  	
+    2, 3, 7, 10, 6, 5, 4, 8. 		
+		 
+It will be seen that the fourth direction (1, 4, 3, 7, 10, 6, 5, 9)			
+produces the solution shown in Fig. 2. The thirteenth produces the			
+solution given in propounding the puzzle, where the cut entered at the  	
+side instead of at the top. The pieces, however, will be of the same 		
+shape if turned over, which, as it was stated in the conditions, would		 
+not constitute a different solution. 	 
+		 
+	  
+291.--THE GRAND LAMA'S PROBLEM. 		
+  	
+The method of dividing the chessboard so that each of the four parts	 	
+shall be of exactly the same size and shape, and contain one of the			
+gems, is shown in the diagram. The method of shading the squares is		 
+adopted to make the shape of the pieces clear to the eye. Two of the  	
+pieces are shaded and two left white. 		
+	  
+The reader may find it interesting to compare this puzzle with that of			
+the "Weaver" (No. 14, _Canterbury Puzzles_).	 	
+   
+[Illustration: THE GRAND LAMA'S PROBLEM.		 
+ 	 
+    +===+===+===+===+===+===+===+===+ 	 
+    |:o:|   :   :   :   :   :   :   :	  
+    I...I...+===+===+===+===+===+===+	  
+    |:::| o |:::::::::::::::::::::::|	 	
+    I...I...I...+===+===+===+===+...I	 	
+    |:::|   |:o:|   :   :   :   |:::|  	
+    I...I...I...I...I===+===+...I...I   
+    |:::|   |:::| o |:::::::|   |:::|		 
+    I...I...I...+===I===+...I...I...I 		
+    |:::|   |:::::::|   |:::|   |:::|   
+    I...I...+===+===+...+...I...I...I		 
+    |:::|   :   :   :   |:::|   |:::|	  
+    I...+===+===+===+===I...I...I...I			
+    |:::::::::::::::::::::::|   |:::|	 	
+    +===+===+===+===+===+===+...I...I			
+    |   :   :   :   :   :   :   |:::|		 
+    +===+===+===+===+===+===+===+===+ 		
+		 
+]	  
+	  
+ 		
+292.--THE ABBOT'S WINDOW.  	
+	 	
+THE man who was "learned in strange mysteries" pointed out to Father			
+John that the orders of the Lord Abbot of St. Edmondsbury might be 		
+easily carried out by blocking up twelve of the lights in the window as			
+shown by the dark squares in the following sketch:--	  
+	 	
+	 	
+[Illustration:  	
+   
+    +===+===+===+===+===+===+===+===+			
+    |   :   :   :   :   :   :   :   | 		
+    I...+===+...+...+...+...+===+...I			
+    |   IIIII   :   :   :   IIIII   |		 
+    I...+===+===+...+...+===+===+...I 		
+    |   :   IIIII   :   IIIII   :   | 		
+    I...+...+===+===+===+===+...+...I	 	
+    |   :   :   IIIIIIIII   :   :   |			
+    I...+...+...+===+===+...+...+...I		 
+    |   :   :   IIIIIIIII   :   :   |  	
+    I...+...+===+===+===+===+...+...I   
+    |   :   IIIII   :   IIIII   :   |	  
+    I...+===+===+...+...+===+===+...I		 
+    |   IIIII   :   :   :   IIIII   |	 	
+    I...+===+...+...+...+...+===+...I  	
+    |   :   :   :   :   :   :   :   |	 	
+    +===+===+===+===+===+===+===+===+ 	 
+ 	 
+]	  
+	  
+Father John held that the four corners should also be darkened, but the 		
+sage explained that it was desired to obstruct no more light than was  	
+absolutely necessary, and he said, anticipating Lord Dundreary, "A	 	
+single pane can no more be in a _line_ with itself than one bird can go			
+into a corner and flock in solitude. The Abbot's condition was that no		 
+diagonal _lines_ should contain an odd number of lights."  	
+ 		
+Now, when the holy man saw what had been done he was well pleased, and	  
+said, "Truly, Father John, thou art a man of deep wisdom, in that thou	 	
+hast done that which seemed impossible, and yet withal adorned our	 	
+window with a device of the cross of St. Andrew, whose name I received  	
+from my godfathers and godmothers." Thereafter he slept well and arose  	
+refreshed. The window might be seen intact to-day in the monastery of 	 
+St. Edmondsbury, if it existed, which, alas! the window does not. 		
+ 	 
+		 
+293.--THE CHINESE CHESSBOARD.			
+			
+    +===I===+===+===+===I===+===+===+   
+    |   |:::: 2 ::::| 3 |:::| 5 |:6:|	 	
+    I...+===+...+===+...I...I...+===I		 
+    |:::: 1 |:::|   ::::| 4 |:::| 7 | 	 
+    I...+===+===+...I===I...I===+===I			
+    |   |::::   |:::|   ::::| 9 |:::|	  
+    I===I...I===============I...I...I		 
+    |:::: 11|::::   ::::: 10|:::| 8 |	 	
+    I=======I===I===========I...I...I	 	
+    |   ::::: 12|:::: 13::::|   |:::|			
+    I=======+...I...+===+===|===+===I		 
+    |:::: 14|:::|   |:::| 16::::| 17|  	
+    I...+...I===I===+...+...+===+...I   
+    |   ::::|   ::::: 15|:::|   ::::|	  
+    I=======+===========+===+=======I	 	
+    |::::   ::::: 18:::::   :::::   |	 	
+    +===+===+===+===+===+===+===+===+  	
+   
+    +===+===I===I===+===I===+===+===+		 
+    |   ::::|   |::::   |:::|   ::::| 		
+    I...+===I...I=======I...I===+...I 		
+    |:::|   |::::   |::::   |:::|   |	  
+    I...I===I===============I===I...I	  
+    |   |::::   ::::|   :::::   |:::|  	
+    I===I=======I=======I=======I===I   
+    |:::|   ::::|   ::::|   ::::|   |	  
+    I...I===+...I...+...I...+===+...I 		
+    |   ::::|   |::::   |:::|   ::::| 		
+    I...+===I...+===I===+...I===+...I			
+    |:::|   |::::   |::::   |:::|   |	  
+    I===I...+=======I=======+...I===I	  
+    |   |::::   ::::|   :::::   |:::|  	
+    I...+=======+...I...+=======+...I  	
+    |::::   ::::|   |:::|   :::::   |	  
+    +===+===+===+===+===+===+===+===+			
+ 		
+			
+Eighteen is the maximum number of pieces. I give two solutions. The	  
+numbered diagram is so cut that the eighteenth piece has the largest	  
+area--eight squares--that is possible under the conditions. The second  	
+diagram was prepared under the added condition that no piece should   
+contain more than five squares.			
+		 
+No. 74 in _The Canterbury Puzzles_ shows how to cut the board into  	
+twelve pieces, all different, each containing five squares, with one			
+square piece of four squares.	  
+	  
+  	
+294.--THE CHESSBOARD SENTENCE.   
+		 
+    +===I===I===I===I=======I=======+		 
+    |   |:::|   |:::|   ::::|   ::::|  	
+    I===I...I===I...I...+===I...+===I 		
+    |:::|   :::::   |:::|   :::::   |	  
+    |...|...+===I...I...+===+...+===I 	 
+    |   |:::|   |:::|   ::::|   ::::|	 	
+    |...+===+...+===I===I===I=======I  	
+    |::::   :::::   |:::|   :::::   |   
+    I===========I===I...I===I===+...|		 
+    |   :::::   |:::|   |:::|   |:::| 	 
+    |...+===+...|...|...|...I===+...|		 
+    |:::|   |:::|   |:::|   |::::   |	  
+    |...|...|...|...I===+...+===+...| 	 
+    |   |:::|   |:::|   :::::   |:::|			
+    I===+...+===I...+=======I===+...|   
+    |::::   ::::|   :::::   |::::   | 		
+    +===========I===================+ 		
+ 		
+The pieces may be fitted together, as shown in the illustration, to form			
+a perfect chessboard.	  
+ 	 
+  	
+295.--THE EIGHT ROOKS.  	
+ 		
+Obviously there must be a rook in every row and every column. Starting 	 
+with the top row, it is clear that we may put our first rook on any one 	 
+of eight different squares. Wherever it is placed, we have the option of 		
+seven squares for the second rook in the second row. Then we have six	  
+squares from which to select the third row, five in the fourth, and so	  
+on. Therefore the number of our different ways must be 8 x 7 x 6 x 5 x 4			
+x 3 x 2 x 1 = 40,320 (that is 8!), which is the correct answer.	 	
+			
+How many ways there are if mere reversals and reflections are not		 
+counted as different has not yet been determined; it is a difficult 		
+problem. But this point, on a smaller square, is considered in the next	 	
+puzzle.	  
+		 
+	 	
+296.--THE FOUR LIONS.	 	
+			
+		 
+There are only seven different ways under the conditions. They are as 	 
+follows: 1 2 3 4, 1 2 4 3, 1 3 2 4, 1 3 4 2, 1 4 3 2, 2 1 4 3, 2 4 1 3.   
+Taking the last example, this notation means that we place a lion in the	  
+second square of first row, fourth square of second row, first square of 		
+third row, and third square of fourth row. The first example is, of			
+course, the one we gave when setting the puzzle.  	
+	 	
+ 	 
+297.--BISHOPS--UNGUARDED. 	 
+  	
+    +...+...+...+...+...+...+...+...+		 
+    :   :::::   :::::   :::::   :::::	  
+    +...+...+...+...+...+...+...+...+ 		
+    :::::   :::::   :::::   :::::   :	 	
+    +...+...+...+...+...+...+...+...+			
+    :   :::::   :::::   :::::   :::::			
+    +...+...+...+...+...+...+...+...+ 		
+    ::B:: B ::B:: B ::B:: B ::B:: B :			
+    +...+...+...+...+...+...+...+...+	 	
+    :   :::::   :::::   :::::   :::::	 	
+    +...+...+...+...+...+...+...+...+	 	
+    :::::   :::::   :::::   :::::   :  	
+    +...+...+...+...+...+...+...+...+	  
+    :::::   :::::   :::::   :::::   :			
+    +...+...+...+...+...+...+...+...+ 		
+    :   :::::   :::::   :::::   :::::			
+    +...+...+...+...+...+...+...+...+	  
+	 	
+	 	
+This cannot be done with fewer bishops than eight, and the simplest   
+solution is to place the bishops in line along the fourth or fifth row	 	
+of the board (see diagram). But it will be noticed that no bishop is			
+here guarded by another, so we consider that point in the next puzzle. 		
+			
+	  
+298.--BISHOPS--GUARDED.	 	
+	 	
+    +...+...+...+...+.......+.......+   
+    :   :::::   :::::   :::::   :::::		 
+    +...+...+...+...+...+...+...+...+ 		
+    :::::   :::::   :::::   :::::   : 		
+    +...+...+...+...+...+...+...+...+			
+    :   :::::   :::::   :::::   :::::	  
+    +...+...+...+...+...+...+.......+	  
+    ::::: B ::B:: B ::::: B ::B::   : 		
+    +...........+...+...+...+...+...+  	
+    :   ::B:: B ::B::   ::B:: B :::::	 	
+    +...+...+...+...+...+...+...+...+ 	 
+    :::::   :::::   :::::   :::::   : 		
+    +...+...+...+...+...+...+...+...+	  
+    :   :::::   :::::   :::::   :::::	  
+    +...+...+...+...+.......+...+...+		 
+    :::::   :::::   :::::   :::::   :	 	
+    +...+...+...+...+.......+...+...+   
+		 
+This puzzle is quite easy if you first of all give it a little thought. 	 
+You need only consider squares of one colour, for whatever can be done  	
+in the case of the white squares can always be repeated on the black,	  
+and they are here quite independent of one another. This equality, of	  
+course, is in consequence of the fact that the number of squares on an			
+ordinary chessboard, sixty-four, is an even number. If a square	 	
+chequered board has an odd number of squares, then there will always be   
+one more square of one colour than of the other.		 
+		 
+Ten bishops are necessary in order that every square shall be attacked   
+and every bishop guarded by another bishop. I give one way of arranging		 
+them in the diagram. It will be noticed that the two central bishops in		 
+the group of six on the left-hand side of the board serve no purpose,			
+except to protect those bishops that are on adjoining squares. Another			
+solution would therefore be obtained by simply raising the upper one of   
+these one square and placing the other a square lower down.	 	
+		 
+ 	 
+299.--BISHOPS IN CONVOCATION.   
+		 
+The fourteen bishops may be placed in 256 different ways. But every			
+bishop must always be placed on one of the sides of the board--that			
+is, somewhere on a row or file on the extreme edge. The puzzle,  	
+therefore, consists in counting the number of different ways that we			
+can arrange the fourteen round the edge of the board without attack. 	 
+This is not a difficult matter. On a chessboard of n squared squares 2n - 2 		
+bishops (the maximum number) may always be placed in 2^n ways without	 	
+attacking. On an ordinary chessboard n would be 8; therefore 14	  
+bishops may be placed in 256 different ways. It is rather curious that	  
+the general result should come out in so simple a form.  	
+   
+[Illustration]		 
+		 
+  	
+300.--THE EIGHT QUEENS. 		
+		 
+[Illustration]			
+			
+The solution to this puzzle is shown in the diagram. It will be found   
+that no queen attacks another, and also that no three queens are in a	 	
+straight line in any oblique direction. This is the only arrangement out		 
+of the twelve fundamentally different ways of placing eight queens 	 
+without attack that fulfils the last condition.			
+	  
+		 
+301.--THE EIGHT STARS.	 	
+	 	
+The solution of this puzzle is shown in the first diagram. It is the			
+only possible solution within the conditions stated. But if one of the		 
+eight stars had not already been placed as shown, there would then have 		
+been eight ways of arranging the stars according to this scheme, if we		 
+count reversals and reflections as different. If you turn this page	  
+round so that each side is in turn at the bottom, you will get the four			
+reversals; and if you reflect each of these in a mirror, you will get  	
+the four reflections. These are, therefore, merely eight aspects of one   
+"fundamental solution." But without that first star being so placed,	 	
+there is another fundamental solution, as shown in the second diagram.		 
+But this arrangement being in a way symmetrical, only produces four 	 
+different aspects by reversal and reflection.		 
+	  
+[Illustration]	  
+  	
+  	
+302.--A PROBLEM IN MOSAICS.   
+			
+[Illustration] 	 
+ 		
+The diagram shows how the tiles may be rearranged. As before, one yellow		 
+and one purple tile are dispensed with. I will here point out that in			
+the previous arrangement the yellow and purple tiles in the seventh row			
+might have changed places, but no other arrangement was possible.   
+	 	
+		 
+303.--UNDER THE VEIL. 	 
+			
+Some schemes give more diagonal readings of four letters than others,	  
+and we are at first tempted to favour these; but this is a false scent,		 
+because what you appear to gain in this direction you lose in others. Of	 	
+course it immediately occurs to the solver that every LIVE or EVIL is	 	
+worth twice as much as any other word, since it reads both ways and			
+always counts as 2. This is an important consideration, though sometimes		 
+those arrangements that contain most readings of these two words are 		
+fruitless in other words, and we lose in the general count.		 
+	  
+[Illustration: 	 
+	 	
+     _ _ I V E L _ _   
+     E V L _ _ I _ _	 	
+     L _ _ I _ _ V E		 
+     I _ V E _ _ _ L 	 
+     _ E _ _ L V _ I			
+     _ L I _ _ I _ E V	  
+    /V _ E L _ _ I _		 
+    _ I _ _ V E L _\	 	
+  	
+]   
+		 
+The above diagram is in accordance with the conditions requiring no  	
+letter to be in line with another similar letter, and it gives twenty 		
+readings of the five words--six horizontally, six vertically, four in	  
+the diagonals indicated by the arrows on the left, and four in the	 	
+diagonals indicated by the arrows on the right. This is the maximum.	 	
+  	
+Four sets of eight letters may be placed on the board of sixty-four		 
+squares in as many as 604 different ways, without any letter ever being 	 
+in line with a similar one. This does not count reversals and 		
+reflections as different, and it does not take into consideration the		 
+actual permutations of the letters among themselves; that is, for	  
+example, making the L's change places with the E's. Now it is a singular 	 
+fact that not only do the twenty word-readings that I have given prove			
+to be the real maximum, but there is actually only that one arrangement  	
+from which this maximum may be obtained. But if you make the V's change 		
+places with the I's, and the L's with the E's, in the solution given, 	 
+you still get twenty readings--the same number as before in every 	 
+direction. Therefore there are two ways of getting the maximum from the   
+same arrangement. The minimum number of readings is zero--that is, the	  
+letters can be so arranged that no word can be read in any of the	  
+directions. 		
+	 	
+			
+304.--BACHET'S SQUARE.		 
+ 		
+[Illustration: 1]	  
+	  
+[Illustration: 2]	  
+  	
+[Illustration: 3]  	
+	 	
+[Illustration: 4]		 
+ 		
+Let us use the letters A, K, Q, J, to denote ace, king, queen, jack; and 	 
+D, S, H, C, to denote diamonds, spades, hearts, clubs. In Diagrams 1		 
+and 2 we have the two available ways of arranging either group of			
+letters so that no two similar letters shall be in line--though a			
+quarter-turn of 1 will give us the arrangement in 2. If we superimpose   
+or combine these two squares, we get the arrangement of Diagram 3, which	 	
+is one solution. But in each square we may put the letters in the top		 
+line in twenty-four different ways without altering the scheme of 	 
+arrangement. Thus, in Diagram 4 the S's are similarly placed to the D's   
+in 2, the H's to the S's, the C's to the H's, and the D's to the C's. It		 
+clearly follows that there must be 24x24 = 576 ways of combining the two			
+primitive arrangements. But the error that Labosne fell into was that of			
+assuming that the A, K, Q, J must be arranged in the form 1, and the D,   
+S, H, C in the form 2. He thus included reflections and half-turns, but	 	
+not quarter-turns. They may obviously be interchanged. So that the 	 
+correct answer is 2 x 576 = 1,152, counting reflections and reversals as  	
+different. Put in another manner, the pairs in the top row may be	  
+written in 16 x 9 x 4 x 1 = 576 different ways, and the square then	  
+completed in 2 ways, making 1,152 ways in all.		 
+	 	
+	 	
+305.--THE THIRTY-SIX LETTER BLOCKS.			
+		 
+I pointed out that it was impossible to get all the letters into the box 	 
+under the conditions, but the puzzle was to place as many as possible.		 
+	  
+This requires a little judgment and careful investigation, or we are 		
+liable to jump to the hasty conclusion that the proper way to solve the  	
+puzzle must be first to place all six of one letter, then all six of	 	
+another letter, and so on. As there is only one scheme (with its			
+reversals) for placing six similar letters so that no two shall be in a		 
+line in any direction, the reader will find that after he has placed  	
+four different kinds of letters, six times each, every place is occupied	  
+except those twelve that form the two long diagonals. He is, therefore,		 
+unable to place more than two each of his last two letters, and there 	 
+are eight blanks left. I give such an arrangement in Diagram 1.			
+  	
+[Illustration: 1]			
+ 		
+[Illustration: 2]   
+			
+The secret, however, consists in not trying thus to place all six of	  
+each letter. It will be found that if we content ourselves with placing  	
+only five of each letter, this number (thirty in all) may be got into 		
+the box, and there will be only six blanks. But the correct solution is   
+to place six of each of two letters and five of each of the remaining	  
+four. An examination of Diagram 2 will show that there are six each of C 	 
+and D, and five each of A, B, E, and F. There are, therefore, only four 		
+blanks left, and no letter is in line with a similar letter in any	 	
+direction.		 
+ 		
+ 		
+306.--THE CROWDED CHESSBOARD.   
+		 
+[Illustration] 	 
+  	
+Here is the solution. Only 8 queens or 8 rooks can be placed on the  	
+board without attack, while the greatest number of bishops is 14, and of	  
+knights 32. But as all these knights must be placed on squares of the	 	
+same colour, while the queens occupy four of each colour and the bishops  	
+7 of each colour, it follows that only 21 knights can be placed on the  	
+same colour in this puzzle. More than 21 knights can be placed alone on   
+the board if we use both colours, but I have not succeeded in placing			
+more than 21 on the "crowded chessboard." I believe the above solution  	
+contains the maximum number of pieces, but possibly some ingenious			
+reader may succeed in getting in another knight.	  
+	 	
+			
+307.--THE COLOURED COUNTERS.  	
+ 		
+The counters may be arranged in this order:-- 	 
+ 		
+    R1,  B2,  Y3,  O4,  GS.	  
+    Y4,  O5,  G1,  R2,  B3.	  
+    G2,  R3,  B4,  Y5,  O1.		 
+    B5,  Y1,  O2,  G3,  R4.  	
+    O3,  G4,  R5,  B1,  Y2.  	
+	  
+ 	 
+308.--THE GENTLE ART OF STAMP-LICKING.  	
+	  
+The following arrangement shows how sixteen stamps may be stuck on the	  
+card, under the conditions, of a total value of fifty pence, or 4s. 	 
+2d.:--			
+	 	
+[Illustration]   
+		 
+If, after placing the four 5d. stamps, the reader is tempted to place	 	
+four 4d. stamps also, he can afterwards only place two of each of the	 	
+three other denominations, thus losing two spaces and counting no more	  
+than forty-eight pence, or 4s. This is the pitfall that was hinted at.			
+(Compare with No. 43, _Canterbury Puzzles_.)	 	
+	  
+	  
+309.--THE FORTY-NINE COUNTERS. 		
+ 	 
+The counters may be arranged in this order:--   
+	 	
+    A1,  B2,  C3,  D4,  E5,  F6,  G7. 	 
+    F4,  G5,  A6,  B7,  C1,  D2,  E3.	 	
+    D7,  E1,  F2,  G3,  A4,  B5,  C6.	  
+    B3,  C4,  D5,  E6,  F7,  G1,  A2.			
+    G6,  A7,  B1,  C2,  D3,  E4,  F5.		 
+    E2,  F3,  G4,  A5,  B6,  C7,  D1.  	
+    C5,  D6,  E7,  F1,  G2,  A3,  B4.	  
+	  
+		 
+310.--THE THREE SHEEP.	 	
+  	
+The number of different ways in which the three sheep may be placed so 	 
+that every pen shall always be either occupied or in line with at least 	 
+one sheep is forty-seven.  	
+			
+The following table, if used with the key in Diagram 1, will enable the	 	
+reader to place them in all these ways:-- 		
+			
+    +------------+---------------------------+----------+ 		
+    |            |                           |  No. of  | 	 
+    | Two Sheep. |       Third Sheep.        |   Ways.  | 		
+    +------------+---------------------------+----------+  	
+    | A and B    | C, E, G, K, L, N, or P    |    7     |	  
+    | A and C    | I, J, K, or O             |    4     |	  
+    | A and D    | M, N, or J                |    3     |  	
+    | A and F    | J, K, L, or P             |    4     |	 	
+    | A and G    | H, J, K, N, O, or P       |    6     |	  
+    | A and H    | K, L, N, or O             |    4     |	 	
+    | A and O    | K or L                    |    2     |		 
+    | B and C    | N                         |    1     |	 	
+    | B and E    | F, H, K, or L             |    4     |  	
+    | B and F    | G, J, N, or O             |    4     |	  
+    | B and G    | K, L, or N                |    3     |	 	
+    | B and H    | J or N                    |    2     |  	
+    | B and J    | K or L                    |    2     | 		
+    | F and G    | J                         |    1     |   
+    |            |                           |   ----   |		 
+    |            |                           |    47    |		 
+    +------------+---------------------------+----------+   
+	  
+This, of course, means that if you place sheep in the pens marked A and  	
+B, then there are seven different pens in which you may place the third	 	
+sheep, giving seven different solutions. It was understood that	  
+reversals and reflections do not count as different.		 
+			
+If one pen at least is to be _not_ in line with a sheep, there would be  	
+thirty solutions to that problem. If we counted all the reversals and  	
+reflections of these 47 and 30 cases respectively as different, their	 	
+total would be 560, which is the number of different ways in which the		 
+sheep may be placed in three pens without any conditions. I will remark	 	
+that there are three ways in which two sheep may be placed so that every  	
+pen is occupied or in line, as in Diagrams 2, 3, and 4, but in every	 	
+case each sheep is in line with its companion. There are only two ways 		
+in which three sheep may be so placed that every pen shall be occupied 	 
+or in line, but no sheep in line with another. These I show in Diagrams   
+5 and 6. Finally, there is only one way in which three sheep may be		 
+placed so that at least one pen shall not be in line with a sheep and 		
+yet no sheep in line with another. Place the sheep in C, E, L. This is			
+practically all there is to be said on this pleasant pastoral subject. 	 
+ 	 
+[Illustration]		 
+	  
+		 
+311.--THE FIVE DOGS PUZZLE.	 	
+ 	 
+The diagrams show four fundamentally different solutions. In the case of  	
+A we can reverse the order, so that the single dog is in the bottom row   
+and the other four shifted up two squares. Also we may use the next 	 
+column to the right and both of the two central horizontal rows. Thus A		 
+gives 8 solutions. Then B may be reversed and placed in either diagonal, 	 
+giving 4 solutions. Similarly C will give 4 solutions. The line in D	 	
+being symmetrical, its reversal will not be different, but it may be		 
+disposed in 4 different directions. We thus have in all 20 different	 	
+solutions.  	
+  	
+[Illustration]	  
+		 
+	 	
+312.--THE FIVE CRESCENTS OF BYZANTIUM.		 
+	  
+[Illustration]	  
+  	
+If that ancient architect had arranged his five crescent tiles in the	  
+manner shown in the following diagram, every tile would have been 		
+watched over by, or in a line with, at least one crescent, and space 		
+would have been reserved for a perfectly square carpet equal in area to  	
+exactly half of the pavement. It is a very curious fact that, although 	 
+there are two or three solutions allowing a carpet to be laid down	 	
+within the conditions so as to cover an area of nearly twenty-nine of	 	
+the tiles, this is the only possible solution giving exactly half the 		
+area of the pavement, which is the largest space obtainable.   
+	  
+		 
+313.--QUEENS AND BISHOP PUZZLE.	 	
+ 	 
+[Illustration: FIG. 1.]	  
+	  
+[Illustration: FIG. 2.] 		
+ 		
+The bishop is on the square originally occupied by the rook, and the	 	
+four queens are so placed that every square is either occupied or 	 
+attacked by a piece. (Fig. 1.) 	 
+   
+I pointed out in 1899 that if four queens are placed as shown in the	  
+diagram (Fig. 2), then the fifth queen may be placed on any one of the			
+twelve squares marked a, b, c, d, and e; or a rook on the two squares, 		
+c; or a bishop on the eight squares, a, b, and e; or a pawn on the 	 
+square b; or a king on the four squares, b, c, and e. The only known	  
+arrangement for four queens and a knight is that given by Mr. J. Wallis 	 
+in _The Strand Magazine_ for August 1908, here reproduced. (Fig. 3.) 	 
+			
+[Illustration: FIG. 3.]	 	
+	 	
+I have recorded a large number of solutions with four queens and a rook,	 	
+or bishop, but the only arrangement, I believe, with three queens and   
+two rooks in which all the pieces are guarded is that of which I give an	  
+illustration (Fig. 4), first published by Dr. C. Planck. But I have		 
+since found the accompanying solution with three queens, a rook, and a  	
+bishop, though the pieces do not protect one another. (Fig. 5.)   
+	  
+[Illustration: FIG. 4.]			
+ 		
+[Illustration: FIG. 5.]  	
+ 	 
+ 	 
+314.--THE SOUTHERN CROSS.  	
+ 	 
+My readers have been so familiarized with the fact that it requires at	 	
+least five planets to attack every one of a square arrangement of 	 
+sixty-four stars that many of them have, perhaps, got to believe that a  	
+larger square arrangement of stars must need an increase of planets. It 	 
+was to correct this possible error of reasoning, and so warn readers	 	
+against another of those numerous little pitfalls in the world of 	 
+puzzledom, that I devised this new stellar problem. Let me then state at 	 
+once that, in the case of a square arrangement of eighty one stars,		 
+there are several ways of placing five planets so that every star shall	 	
+be in line with at least one planet vertically, horizontally, or 	 
+diagonally. Here is the solution to the "Southern Cross": --	 	
+ 		
+It will be remembered that I said that the five planets in their new	  
+positions "will, of course, obscure five other stars in place of those 	 
+at present covered." This was to exclude an easier solution in which  	
+only four planets need be moved.   
+	  
+ 	 
+315.--THE HAT-PEG PUZZLE.	 	
+	  
+The moves will be made quite clear by a reference to the diagrams, which 		
+show the position on the board after each of the four moves. The darts		 
+indicate the successive removals that have been made. It will be seen		 
+that at every stage all the squares are either attacked or occupied, and 	 
+that after the fourth move no queen attacks any other. In the case of	 	
+the last move the queen in the top row might also have been moved one 	 
+square farther to the left. This is, I believe, the only solution to the  	
+puzzle.  	
+ 		
+[Illustration: 1] 		
+  	
+[Illustration: 2]	 	
+	  
+[Illustration: 3] 	 
+ 		
+[Illustration: 4]	  
+	  
+		 
+316.--THE AMAZONS. 	 
+	 	
+It will be seen that only three queens have been removed from their		 
+positions on the edge of the board, and that, as a consequence, eleven 	 
+squares (indicated by the black dots) are left unattacked by any queen.  	
+I will hazard the statement that eight queens cannot be placed on the 		
+chessboard so as to leave more than eleven squares unattacked. It is 		
+true that we have no rigid proof of this yet, but I have entirely			
+convinced myself of the truth of the statement. There are at least five  	
+different ways of arranging the queens so as to leave eleven squares			
+unattacked.	  
+  	
+[Illustration] 		
+	  
+	  
+317.--A PUZZLE WITH PAWNS.		 
+			
+Sixteen pawns may be placed so that no three shall be in a straight line	 	
+in any possible direction, as in the diagram. We regard, as the	 	
+conditions required, the pawns as mere points on a plane.			
+  	
+[Illustration]  	
+	  
+318.--LION-HUNTING. 	 
+			
+There are 6,480 ways of placing the man and the lion, if there are no		 
+restrictions whatever except that they must be on different spots. This			
+is obvious, because the man may be placed on any one of the 81 spots,	 	
+and in every case there are 80 spots remaining for the lion; therefore 		
+81 x 80 = 6,480. Now, if we deduct the number of ways in which the lion	  
+and the man may be placed on the same path, the result must be the 		
+number of ways in which they will not be on the same path. The number of 	 
+ways in which they may be in line is found without much difficulty to be			
+816. Consequently, 6,480 - 816 = 5,664, the required answer. 	 
+	  
+The general solution is this: 1/3n(n - 1)(3n squared - n + 2). This is, of		 
+course, equivalent to saying that if we call the number of squares on	 	
+the side of a "chessboard" n, then the formula shows the number of	  
+ways in which two bishops may be placed without attacking one another. 		
+Only in this case we must divide by two, because the two bishops have no		 
+distinct individuality, and cannot produce a different solution by mere		 
+exchange of places.	  
+	 	
+	 	
+319.--THE KNIGHT-GUARDS. 		
+ 		
+[Illustration: DIAGRAM 1.]		 
+ 	 
+[Illustration: DIAGRAM 2.] 		
+   
+The smallest possible number of knights with which this puzzle can be	 	
+solved is fourteen. 		
+ 		
+It has sometimes been assumed that there are a great many different 	 
+solutions. As a matter of fact, there are only three arrangements--not 		
+counting mere reversals and reflections as different. Curiously enough, 	 
+nobody seems ever to have hit on the following simple proof, or to have		 
+thought of dealing with the black and the white squares separately.   
+	  
+[Illustration: DIAGRAM 3.] 		
+  	
+[Illustration: DIAGRAM 4.]   
+		 
+[Illustration: DIAGRAM 5.] 		
+  	
+Seven knights can be placed on the board on white squares so as to			
+attack every black square in two ways only. These are shown in Diagrams	  
+1 and 2. Note that three knights occupy the same position in both		 
+arrangements. It is therefore clear that if we turn the board so that a	 	
+black square shall be in the top left-hand corner instead of a white,	  
+and place the knights in exactly the same positions, we shall have two	  
+similar ways of attacking all the white squares. I will assume the 	 
+reader has made the two last described diagrams on transparent paper,	  
+and marked them _1a_ and _2a_. Now, by placing the transparent Diagram		 
+_1a_ over 1 you will be able to obtain the solution in Diagram 3, by	 	
+placing _2a_ over 2 you will get Diagram 4, and by placing _2a_ over 1	  
+you will get Diagram 5. You may now try all possible combinations of  	
+those two pairs of diagrams, but you will only get the three 		
+arrangements I have given, or their reversals and reflections. Therefore 	 
+these three solutions are all that exist. 	 
+		 
+		 
+320.--THE ROOK'S TOUR.	 	
+ 	 
+[Illustration] 		
+ 		
+The only possible minimum solutions are shown in the two diagrams, where		 
+it will be seen that only sixteen moves are required to perform the		 
+feat. Most people find it difficult to reduce the number of moves below	 	
+seventeen*. 	 
+		 
+[Illustration: THE ROOK'S TOUR.] 	 
+	 	
+   
+321.--THE ROOK'S JOURNEY.	  
+			
+[Illustration]   
+			
+I show the route in the diagram. It will be seen that the tenth move		 
+lands us at the square marked "10," and that the last move, the 		
+twenty-first, brings us to a halt on square "21."	 	
+   
+ 		
+322.--THE LANGUISHING MAIDEN.		 
+ 	 
+The dotted line shows the route in twenty-two straight paths by which	 	
+the knight may rescue the maiden. It is necessary, after entering the	 	
+first cell, immediately to return before entering another. Otherwise a  	
+solution would not be possible. (See "The Grand Tour," p. 200.)	 	
+ 	 
+			
+323.--A DUNGEON PUZZLE.		 
+  	
+If the prisoner takes the route shown in the diagram--where for	  
+clearness the doorways are omitted--he will succeed in visiting every		 
+cell once, and only once, in as many as fifty-seven straight lines. No  	
+rook's path over the chessboard can exceed this number of moves.	 	
+  	
+[Illustration: THE LANGUISHING MAIDEN]	  
+		 
+[Illustration: A DUNGEON PUZZLE.] 		
+ 		
+		 
+324.--THE LION AND THE MAN. 	 
+			
+First of all, the fewest possible straight lines in each case are  	
+twenty-two, and in order that no cell may be visited twice it is   
+absolutely necessary that each should pass into one cell and then 	 
+immediately "visit" the one from which he started, afterwards proceeding 	 
+by way of the second available cell. In the following diagram the man's  	
+route is indicated by the unbroken lines, and the lion's by the dotted		 
+lines. It will be found, if the two routes are followed cell by cell 	 
+with two pencil points, that the lion and the man never meet. But there  	
+was one little point that ought not to be overlooked--"they occasionally 		
+got glimpses of one another." Now, if we take one route for the man and   
+merely reverse it for the lion, we invariably find that, going at the		 
+same speed, they never get a glimpse of one another. But in our diagram		 
+it will be found that the man and the lion are in the cells marked A at			
+the same moment, and may see one another through the open doorways;		 
+while the same happens when they are in the two cells marked B, the  	
+upper letters indicating the man and the lower the lion. In the first			
+case the lion goes straight for the man, while the man appears to  	
+attempt to get in the rear of the lion; in the second case it looks 	 
+suspiciously like running away from one another!			
+  	
+[Illustration]	 	
+	  			  	    	 		 		 		 	    		 	 	 	 	 	    		 	 	  					 	    	 		 	 		 		 				  			 		 				 		  			 			   				 			   	  	   		    	 		   		 		    	 		   					  	  			 	 	  		   	   	   		  	  	 	 		   					  	  	 		  		 		 	  	 		    	 		   		  	 				  				 	 		  	 		 	  			  	 	 	   	  	 	  		  	 	 	  	    	    	 		 		 				   	  			   		 	   			 	 				  	  	 	 		  		 	 	  	    	    		 	 		 				  		   	 	 	 	 		    	 				 	 	

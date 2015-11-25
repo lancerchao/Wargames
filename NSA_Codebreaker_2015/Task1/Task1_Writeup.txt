@@ -1,0 +1,6 @@
+Run: ./secret-messenger --symbol tier1_key.pem --action tier1_msg.txt --show
+
+Message: Meet at 22:00 tomorrow at our secure location.  Come alone, and do not tell anyone - this meeting is sensitive, as leadership will be present.  To authenticate yourself, mention the pass code mi6e9bd2nq9liftsqvmf at the door.
+
+Executing code-breaker cases it to ask for some arguments. A deeper inspection (either by inspecting the arguments passed to getopt_long_only() or by looking at call graphs in IDA PRO, reveals that there is a hidden option not shown from the --help. Also, observe that there seems to be a strlen() called on the name of the executable, and that it is later compared to secret-messenger. The goal seemed to be to call a function called tier2(). A lot of variables are initialized to 0, and are set when some necessary area of code is executed. The solution was to change the name of the executable to secret-messenger, and to use the --symbol, --action, and --show switch. The symbol and action seem to be looking for some files, and inputing the public key as symbol and the text message gets you the message. 
+

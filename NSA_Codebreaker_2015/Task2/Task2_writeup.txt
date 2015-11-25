@@ -1,0 +1,5 @@
+Run: ./secret-messenger --symbol tier2_key.pem --action tier2_msg.txt --show
+
+Message: Our plans have been set into motion - Member number 392 is ready to carry out his tasking, and in 2 weeks time the window of opportunity will be open.  If it is necessary to abort the action, the authentication code to use is s4a8zwb2svkn0hicggst.
+
+This level was the exact same as Task 1, except now they added something I don't fully understand. The Task explanation said something about access controls built into program. I just ran the program and saw that the control flow was going in the wrong direction as a result of a JNE comparison. I used GDB to manually set the ZF flag in eflags so that the control flow takes the other direction and hooray it works. I still have no idea how to bypass the accesses without a debugger 
