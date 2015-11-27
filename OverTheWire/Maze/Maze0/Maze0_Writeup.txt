@@ -1,0 +1,11 @@
+This was a file race condition challenge. Maze0 first checks to see if it has access permitions to a file "/tmp/128ecf542a35ac5270a87dc740918404." It then changes its effective User ID to Maze1, opens that same file, reads the contents and prints it to the console. By making that file a symbolic link, you can make the executable read the contents of any file you want. The only problem is the permissions. If the symbolic link links to a file, such as etc/maze_pass/maze1, it will fail the first access check that makes sure Maze0 can read it. However, since the files are being checked at two different point in time, it is possible for another process to change the file between the first check (before the SetUID) and the read afterwards. Therefore, the idea is to have the symlink be readable by Maze0 during the first check, and readable by Maze1 after the SetUID. 
+
+This requires two terminals. One one terminal:
+while [ 1 ]; do ./maze0; done;
+
+On the other:
+while [ 1 ]; do ln -sf /etc/maze_pass/maze0 /tmp/128ecf542a35ac5270a87dc740918404;ln -sf /etc/maze_pass/maze1 /tmp/128ecf542a35ac5270a87dc740918404;clear;done 
+
+This runs maze0 over and over again, while repeatedly swapping the symbolic link between maze0 (readable by maze0) and maze1 (contains the flag)
+
+Flag: hashaachon

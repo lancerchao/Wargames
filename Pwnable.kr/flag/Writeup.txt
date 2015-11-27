@@ -1,0 +1,4 @@
+Binary is UPX packed. Unpack and then run strings.
+Alternatively, debug the program and examine memory at location eax after the call
+ 
+Flag: UPX...? sounds like a delivery service :)
