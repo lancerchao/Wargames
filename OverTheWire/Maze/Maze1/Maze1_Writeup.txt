@@ -1,0 +1,24 @@
+This was an amazing level. Learned how to override standard library functions (for fun and profit, of course)
+
+The first thing you notice when trying to run maze1 is that...it doesn't run. At all. It complains about some dynamic library that is missing called "./libc.so.4". A quick check using ldd confirms that the library is missing. 
+
+The executable may not run, but you can still perform some static analysis on it. The main function looks extremely short - all it does is pass a pointer to puts and exits. The pointer is just a global variable containing "Hello World!" Now what...
+
+So, how can we use this executable to open /etc/maze_pass/maze2? The hint is the missing library. Suppose we write our own shared library? Will that let us inject arbitrary code? 
+
+The answer is yes, it seems. A quick google search online shows how to write your own shared library. Since puts() is the only function that's called, let's try and override that. However, the compiler will complain that it has already been defined. 
+
+So I did some research and came upon a great article titled "Overriding System Functions for Fun and Profit." It showed me how to create a shared library and have it override existing functions. 
+http://hackerboss.com/overriding-system-functions-for-fun-and-profit/
+
+The commands involved: 
+gcc -Wall -m32 -fPIC -DPIC -fno-stack-protector -c test.c 
+ld -m elf_i386 -shared -o libc.so.4 test.o -ldl 
+
+In my own puts() function, I just had it open /etc/maze_pass/maze2. But, you need to set your effective user id first. Reversing maze0 gave a great example of how to do that. Once that worked, the level was pretty much pwnt.
+
+There was one last obstacle. You had to run /maze/maze1 (not a copy of it, as that would have different user permissions), however it looks for a file called "./libc.so.4" in the current directory, and you couldn't copy your shared library to this folder. So I did a quick google search on how to run an executable in a different working directory. Stackoverflow again came to the rescue.
+(cd /tmp/Lance;/maze/maze1) 
+
+And hooray! 
+Flag: fooghihahr
