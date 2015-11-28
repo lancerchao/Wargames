@@ -1,0 +1,92 @@
+def fail(memes, calcium)
+	dank = true
+	if  calcium < memes
+		if  memes % calcium is 0
+			dank = false
+		else
+			wew =  fail(memes, calcium + 1)
+			dank = wew
+		done if
+	done if
+	return dank
+
+def epicfail(memes)
+	wow = 0
+	dank = true
+	if  memes > 1 
+		wew =  fail(memes, 2)
+		dank = wew
+		if  dank
+			wew =  bill(memes - 1)
+			wow = wew + 1
+		else
+			wew =  such(memes - 1)
+			wow = wew
+		done if
+	done if
+	return wow
+
+def dootdoot(memes, seals)
+	doritos = 0
+	if seals > memes
+	else
+		if  seals is 0
+			doritos = 1
+		else
+			if  seals is memes
+				doritos = 1
+			else
+				wew =  dootdoot(memes - 1, seals - 1)
+				doritos = wew
+				wew =  dootdoot(memes - 1, seals)
+				doritos = wew + doritos
+			done if
+		done if
+	done if
+	return doritos
+
+def such(memes)
+	wew =  dootdoot(memes, 5)
+	wow = wew
+	if  wow % 7 is 0
+		wew =  bill(memes - 1)
+		wow = wow + 1
+	else
+		wew =  epicfail(memes - 1)
+	done if
+	wow = wew + wow
+	return wow
+
+def brotherman(memes)
+	hues = 0
+	if  memes is not 0
+		if  memes < 3
+			hues = 1
+		else
+			wew =  brotherman(memes - 1)
+			hues = wew
+			wew =  brotherman(memes - 2)
+			hues = wew + hues
+		done if
+	done if
+	hues = hues % 987654321
+	return hues
+
+def bill(memes)
+	wew =  brotherman(memes)
+	wow = wew
+	if  wow % 3 is 0
+		wew =  such(memes - 1)
+		wow = wow + 1
+	else
+		wew =  epicfail(memes - 1)
+	done if
+	wow = wew + wow
+	return wow
+
+me
+	memes = 13379447
+	wew =  epicfail(memes)
+	print wew
+	>thank mr skeltal
+

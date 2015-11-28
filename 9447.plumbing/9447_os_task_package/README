@@ -1,0 +1,14 @@
+Welcome to 9447CtfOS v3.1337!
+
+We will be running the challenge with something like the following:
+
+$ qemu-system-i386 \
+    -serial tcp::9447,server  \
+    -m 4  \
+    -hda drive.img  \
+    -kernel kernel  \
+    -initrd initrd  \
+    -append "/ctf/init"  \
+    -display none
+
+For testing, you can change "/ctf/init" to "/bin/sh".

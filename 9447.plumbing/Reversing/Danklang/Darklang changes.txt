@@ -1,0 +1,14 @@
+Darklang changes:
+>tfw : return
+>be : var
+like : =
+>implying : if
+>done : done
+implying : if
+>or not : else
+>wewlad : def
+:^) : true
+:^( : false
+>wew : wew =
+>mfw : print
+isn't : is not
