@@ -1,5 +1,12 @@
+Challenge: 
+Through SIGINT we have collected a new message file - this one appears to have been sent to a field operative in the terrorist organization that is of particular interest. A key file for this invidiual was collected previously and should still be valid. We believe that this message may contain actionable intelligence, so please report back with the message contents as soon as possible. This task will require you to figure out how to bypass the access controls built into the program that limit which recipient can decode each message.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
 Run: ./secret-messenger --symbol tier2_key.pem --action tier2_msg.txt --show
 
 Message: Our plans have been set into motion - Member number 392 is ready to carry out his tasking, and in 2 weeks time the window of opportunity will be open.  If it is necessary to abort the action, the authentication code to use is s4a8zwb2svkn0hicggst.
 
 This level was the exact same as Task 1, except now they added something I don't fully understand. The Task explanation said something about access controls built into program. I just ran the program and saw that the control flow was going in the wrong direction as a result of a JNE comparison. I used GDB to manually set the ZF flag in eflags so that the control flow takes the other direction and hooray it works. I still have no idea how to bypass the accesses without a debugger 
+
+Estimated time: 15min

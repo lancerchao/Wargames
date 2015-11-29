@@ -1,3 +1,10 @@
+Challenge: 
+We need your help with decoding the message that we've captured. The text file, key file, and secret messaging program can be found below. The main objective for this task is to figure out how to decode the message with the program and report back on your findings.
+
+To complete this task, you will most likely need to analyze the program binary in order to determine how to trigger the hidden functionality and decode the secret message.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
 Run: ./secret-messenger --symbol tier1_key.pem --action tier1_msg.txt --show
 
 Message: Meet at 22:00 tomorrow at our secure location.  Come alone, and do not tell anyone - this meeting is sensitive, as leadership will be present.  To authenticate yourself, mention the pass code mi6e9bd2nq9liftsqvmf at the door.
