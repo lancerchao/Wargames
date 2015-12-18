@@ -1,0 +1,2 @@
+Checks input against 0x10f.
+Passcode: 271

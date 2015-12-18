@@ -1,0 +1,1 @@
+The level04 binary runs the "whoami" command and prints the output by piping the output of whoami to FILE *f via popen. The trick here is then to override the "whoami" command to print /home/level5/.pass. To do so, create a binary called whoami, have it open /home/level5/.pass and print the output, and prepend the location of that binary to PATH. 

@@ -1,0 +1,2 @@
+The goal is to generate a floating point exception, HOWEVER the denominator is checked to be non-zero before the division is made, so that removes the possibility of a divide-by-zero error. However, the signal man page says that dividing the most negative integer by -1 may generate SIGFPE.
+./level02 -2147483648 -1

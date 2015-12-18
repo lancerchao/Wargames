@@ -1,0 +1,2 @@
+The goal is to overwrite the function pointer so that it points to "good" instead of "bad". Since buffer is placed below the function pointer, overwriting the buffer will let you overwrite the function pointer as well. The trick is to figure out what the relative address of buffer and function pointer is. Using objdump it shows that buffer is at $ebp-0x58 and the function pointer is at ebp-0xc, so they are 76 bytes apart
+./level03 `python -c 'print "A"*76+"\x74\x84\x04\x08"'`
