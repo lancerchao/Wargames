@@ -1,0 +1,5 @@
+This level required some knowledge of how numbers are represented in x86, as well as some basic knowledge of x86 arithmetic operations. 
+By looking at the source code, it is very clear that the goal is to overflow the int[10] buffer and therefore overwrite count. The only problem is that 3rd parameter of memcpy (which represents the size) is checked to be less than 10 before it is passed to memcpy. Even after multiplying by sizeof int, it seems there is no way to pass in a parameter large enough. The trick is to find a way to make the count larger than 10 without failing the check. The answer is to use negative numbers. Negative numbers are represented as (very) large numbers in binary (for example, -1 is 0xffffffff). This works, and the only challenge remaining is to pass  a value big enough to overflow buf, but not big enough to make memcpy cause a seg fault. The number -2147483630 worked for me.
+
+Exploit:
+./level07 -2147483630 `python -c 'print "A"*60+"FLOW"'`

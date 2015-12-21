@@ -1,0 +1,9 @@
+This level had two small obstacles. The first obstacle was to find the vulnerability point, as it is not obvious from looking at the code. From using checksec.sh, we can see that there is no NX and no stack canary. So this suggests that the vulnerability is a buffer overflow. The vulnerable functions are strncpy and strcat (See PintOS documentation under "Unsafe String functions" for full explanation)
+In this case, we take advantage of the fact that strncpy does not guarantee null termination of strings, and try to use that to take control of the return from greetuser. Since name and password are adjacent in memory under struct UserRecord, strcat will end up appending both the name and password field to greeting (as long as name is not null-terminated). This makes greeting longer than the 64 bytes allocated to it, which ends up overflowing the stack frame. I put the shellcode as the input to user, and the overwritten eip as input to password (prepended with padding to ensure that the eip is in the correct position). 
+The second catch here is that under the default environment language(english), greeting is not long enough to overflow eip, and not even fully enough to overflow saved ebp (since "Hi " is too short). Therefore, I changed the environment variable LANG to "de" which makes greeting long enough to overflow both ebp and eip. I added the variable in the "invoke.sh" script
+
+Exploit: 
+./invoke.sh /levels/level06 `python -c 'print "\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\xcd\x80"+"A"*14'` `python -c 'print "BBBBBBBBBBBBBBBBBBBBB\xd8\xfc\xff\xbf\xdb\xfc\xff\xbf"'`
+
+Changes made to invoke.sh:
+exec env - $env TERM=screen PWD=$PWD LANG=de $prog "$@"

